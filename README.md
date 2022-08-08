@@ -206,7 +206,7 @@ Line 1500
 
 The tool produces this figure (screenshot from Ultimate Doom Builder):
 
-![A test figure produced by the tool](/screenshots/screenshot-editor-1.png)
+![A test figure produced by the tool](/screenshots/screenshot-2d-1.png)
 
 For another input:
 
@@ -234,14 +234,14 @@ Line 1000
 
 It produces a helix-like figure (screenshot from Ultimate Doom Builder, numerous green lines are linedefs with special 181:Plane_Align set):
 
-![A helix-like figure produced by the tool](/screenshots/screenshot-editor-2.png)
+![A helix-like figure produced by the tool](/screenshots/screenshot-2d-2.png)
 
 The road in the game looks like this (screenshots from ZDoom):
 
-![An in-game screenshot #1 of a figure](/screenshots/screenshot-game-1.png)
-![An in-game screenshot #2 of a figure](/screenshots/screenshot-game-2.png)
-![An in-game screenshot #3 of a figure](/screenshots/screenshot-game-3.png)
-![An in-game screenshot #4 of a figure](/screenshots/screenshot-game-4.png)
+![An in-game screenshot #1 of a figure](/screenshots/screenshot-3d-1.png)
+![An in-game screenshot #2 of a figure](/screenshots/screenshot-3d-2.png)
+![An in-game screenshot #3 of a figure](/screenshots/screenshot-3d-3.png)
+![An in-game screenshot #4 of a figure](/screenshots/screenshot-3d-4.png)
 
 
 ## Known issues
