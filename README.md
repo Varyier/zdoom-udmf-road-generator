@@ -13,7 +13,7 @@ The tool takes an input data containing figures to draw with the road brush (lin
 ## Theory
 
 [ZDoom](https://zdoom.org/) is a modern source port made to play Doom (1993) and Doom-based video games. [UDMF (Universal Doom Map Format)](https://zdoom.org/wiki/Universal_Doom_Map_Format) is the modern map format for Doom-based games that can be consumed by ZDoom or other modern source ports (e. g. [GZDoom](https://zdoom.org/wiki/GZDoom)). Any Doom map is a [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) consisting of vertices, edges (linedefs with sidedefs), faces (sectors). Also, it contains things - interactive and technical objects (monsters, ammo, weapons, teleport destinations, players start points, etc.) and maybe more. See [UDMF specification](https://github.com/ZDoom/gzdoom/blob/master/specs/udmf.txt) and [ZDoom extensions](https://github.com/ZDoom/gzdoom/blob/master/specs/udmf_zdoom.txt) for more information about UDMF.
-Correct Doom map must contain correctly linked vertices, linedefs, sidedefs and sectors without any extra units. So, drawing a doom map includes:
+Valid Doom map must contain correctly linked vertices, linedefs, sidedefs and sectors without any extra units. So, drawing a doom map includes:
 
   1. Creation of vertices with correct coordinates x and y (floating point values).
 
