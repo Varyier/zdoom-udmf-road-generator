@@ -29,7 +29,7 @@ Then, ZDoom allows useful UDMF extensions to slope a figure:
 
   1. Vertex properties ```zfloor``` and ```zceiling```. These properties represent explicitly set z positions for the floor and ceiling of a vertex respectively. This allows to slope triangular sectors which includes the vertex with these properties set as a part of its bound.
 
-  2. Linedef specials. [181:Plane_Align](https://zdoom.org/wiki/Plane_Align) and [118:Plane_Copy](https://zdoom.org/wiki/Plane_Copy) allows creating slopes via setting linedef properties. 181:Plane_Align allow the easiest way to create slopes for mappers. After setting correct parameters for this special the sector in front of the linedef or behind it will have sloped floor or ceiling.
+  2. Linedef specials. [181:Plane_Align](https://zdoom.org/wiki/Plane_Align) and [118:Plane_Copy](https://zdoom.org/wiki/Plane_Copy) allow creating slopes via setting linedef properties. 181:Plane_Align allows the easiest way to create slopes for mappers. After setting correct parameters for this special the sector in front of the linedef or behind it will have sloped floor or ceiling.
 
   3. Sector plane equations. Sector can be assigned a plane equation in the form of ax + by + cz + d = 0 to make slopes. Four properties for floor sloping are ```floorplane_a```, ```floorplane_b```, ```floorplane_c```, ```floorplane_d``` and four properties for ceil sloping are ```ceilingplane_a```, ```ceilingplane_b```, ```ceilingplane_c```, ```ceilingplane_d```. All four values must be set (for floor and/or for ceiling) for a sector to make a slope. This is the hardest way to make slopes.
 
