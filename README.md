@@ -182,7 +182,6 @@ For testing [ZDoom](https://zdoom.org/downloads) is required and an IWAD DOOM2.W
 For the following input:
 
 ```
-
 Figure -12000 -6000 0 0 4096 50
 Line 12000
 Arc 4000 30 16
@@ -201,7 +200,6 @@ Slope -0.05
 Line 4000
 Slope 0
 Line 1500
-
 ```
 
 The tool produces this figure (screenshot from Ultimate Doom Builder):
@@ -211,7 +209,6 @@ The tool produces this figure (screenshot from Ultimate Doom Builder):
 For another input:
 
 ```
-
 Figure 0 -1000 -90 128 4096 256
 Line 1000
 Arc 2000 45 24
@@ -229,7 +226,6 @@ Arc 6500 45 128
 Arc 7000 45 128
 Slope 0
 Line 1000
-
 ```
 
 It produces a helix-like figure (screenshot from Ultimate Doom Builder, numerous green lines are linedefs with special 181:Plane_Align set):
