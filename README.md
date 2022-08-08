@@ -243,7 +243,7 @@ The road in the game looks like this (screenshots from ZDoom):
 ## Known issues
 
 Sloped arcs with small divider values causes glitches like steps instead of a slope. To avoid that choose dividers big enough for arcs.
-This tool was not tested much so upon a successful generation the map must be visually checked for any glitches using a visual map editor or ZDoom itself.
+This tool was not tested much so upon a successful generation the map should be visually checked for any glitches using a visual map editor or ZDoom itself.
 
 
 ## License
