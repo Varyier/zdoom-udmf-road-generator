@@ -1,0 +1,19 @@
+
+Figure -12000 -6000 0 0 4096 50
+Line 12000
+Arc 4000 30 16
+Slope 0.1
+Arc 7000 70 48
+Slope 0.2
+Arc 3000 80 64
+Slope 0.15
+Line 3000
+Slope 0
+Arc 8000 45 128
+Slope -0.22
+Line 4000
+Arc 2000 -85 96
+Slope -0.05
+Line 4000
+Slope 0
+Line 1500

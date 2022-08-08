@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{264a22b8-efb3-4af3-b713-b420f41d90ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\res">
+      <UniqueIdentifier>{288fa93d-e759-4d27-8bac-4552d7002e19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="umath.h" />
+    <ClInclude Include="core.h" />
+    <ClInclude Include="udmf.h" />
+    <ClInclude Include="io.h" />
+    <ClInclude Include="common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="umath.cpp" />
+    <ClCompile Include="core.cpp" />
+    <ClCompile Include="udmf.cpp" />
+    <ClCompile Include="io.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="road-config.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="res\data.txt">
+      <Filter>data\res</Filter>
+    </Text>
+    <Text Include="res\data2.txt">
+      <Filter>data\res</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

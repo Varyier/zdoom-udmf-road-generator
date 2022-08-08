@@ -1,0 +1,66 @@
+
+Sizes:		#{
+			   // distance between sky sector and road side
+			   // must be an integer in the range between 33 and 4096, default - 128
+			   BackgroundDist=128,
+
+			   // fence height, as it says
+			   // must be an integer between 0 and smallest possible figure height, default - 128
+			   FenceHeight=128,
+
+			   // width of the actual road
+			   // must be an integer between 'RoadMarkWidth + 2' and 4096, default - 384
+			   RoadWidth=384,
+
+			   // width of a road side (one of two)
+			   // must be an integer between 1 and 4096, default - 128
+			   RoadSideWidth=128,
+
+			   // height of road side sectors
+			   // must not be greater than the fence height and greater than or equal to 0, default - 8
+			   RoadSideHeight=8,
+
+			   // width of road mark sectors
+			   // must be an integer between 4 and 'RoadWidth - 2', default - 16
+			   RoadMarkWidth=16,
+
+			   // length of a single road mark
+			   // large values are allowed and result in a continuous mark
+			   // must be an integer between 16 and 65535, default - 256
+			   RoadMarkLength=256,
+
+			   // length of a gap between two road marks
+			   // large values are allowed and result in a clear road without any marks
+			   // must be an integer between 16 and 65535, default - 512
+			   RoadMarkGap=512
+			}
+
+Textures:	#{
+			   // sky texture (for background, etc.), default - "F_SKY1"
+			   Sky="F_SKY1",
+
+			   // floor texture of the sector surrounding the actual road, default - "FWATER1"
+			   Background="FWATER1",
+
+			   // wall texture of the fence surrounding the road, default - "BIGBRIK1"
+			   Fence="BIGBRIK1",
+
+			   // floor texture of the fence surrounding the road, default - "FLOOR7_1"
+			   FenceFloor="FLOOR7_1",
+
+			   // road side floor texture, default - "SLIME14"
+			   RoadSide="SLIME14",
+
+			   // road side wall texture, default - "STEP4"
+			   RoadSideWall="STEP4",
+
+			   // texture of the road itself, default - "CEIL5_1"
+			   RoadBody="CEIL5_1",
+
+			   // road mark texture, default - "FLAT19"
+			   RoadMark="FLAT19"
+			}
+
+// light level of the whole map
+// must be an integer between 0 and 255, default - 192
+LightLevel:	#192
