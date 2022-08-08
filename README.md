@@ -202,7 +202,7 @@ Slope 0
 Line 1500
 ```
 
-The tool produces this figure (screenshot from Ultimate Doom Builder):
+the tool produces this figure (screenshot from Ultimate Doom Builder):
 
 ![A test figure produced by the tool](/screenshots/screenshot-2d-1.png)
 
@@ -228,7 +228,7 @@ Slope 0
 Line 1000
 ```
 
-It produces a helix-like figure (screenshot from Ultimate Doom Builder, numerous green lines are linedefs with special 181:Plane_Align set):
+it produces a helix-like figure (screenshot from Ultimate Doom Builder, numerous green lines are linedefs with special 181:Plane_Align set):
 
 ![A helix-like figure produced by the tool](/screenshots/screenshot-2d-2.png)
 
